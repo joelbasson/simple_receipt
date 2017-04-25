@@ -5,8 +5,8 @@ var app = express();
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var path = require('path');
-var repository = require('./lib/repository');
-var Cart = require('./lib/cart');
+var repository = require('./lib/repository'); //mock data
+var Cart = require('./lib/cart');   //The main functionality
 var cart = new Cart({});
 
 //server
